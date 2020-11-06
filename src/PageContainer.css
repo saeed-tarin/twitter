@@ -1,0 +1,288 @@
+.container {
+    max-width:1400px;
+    
+}
+
+.container html, body, h1, h2, h3, h4, h5 {
+    font-family: "Open Sans", sans-serif
+}
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+  }
+  
+
+  .sidenav p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+  }
+
+  .sidenav button {
+    padding: 6px 40px 6px 40px;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #008cff;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;  
+  }
+
+  .sidenav .button:hover {
+    background-color: white;
+    color:  #008cff;
+  }
+
+  .sidenav a:hover {
+    color:  #008cff;
+  }
+  
+  .material-icons { font-size: 18px; }
+
+  .tweet{
+    height: 100%;
+    margin-left: 20%;
+    width: 55%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4f4f4f;
+    overflow-x: hidden;
+    align-items: center;
+    align-content: center;
+}
+
+.tweet .btninf {
+  background-color: #008cff;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 2% 2% 2% 2%;
+  border-radius: 50%;
+}
+
+.innerc{
+  display: inline-block;
+  width: 96%;
+  margin: 1% 1% 1% 1%;
+  height: 20%;
+  background-color: #3f3f3f;
+  border-radius: 5px;
+}
+
+.innerc .tweetinp{
+  width: 60%;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 5%;
+}
+
+.innerc .tweetbtn{
+  background-color: #008cff;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 2% 2% 2% 2%;
+  border-radius: 5px;
+}
+
+
+.innerc .tweetbtn:hover{
+   background-color: white;
+    color:  #008cff;
+}
+.innerc .temp{
+  border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+.innerc .fa{
+  background-color: #007bff;
+  border: none;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 2% 2% 2% 2%;
+  border-radius: 5px;
+}
+
+.filter{
+  height: 100%;
+  margin-left: 75%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 20px;
+  align-content: center;
+  align-items: center;
+}
+
+.filter .listbox{
+  height: 90%;
+  margin-left: 75%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 20px;
+  align-content: center;
+  align-items: center;
+}
+
+#myInput {
+  width: 94%;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #4f4f4f;
+  color: white;
+  border-radius: 20px;
+}
+
+.listbox #myUL {
+  padding: 0;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+
+
+.listbox #myUL button {
+ background-color: transparent;
+ border: transparent;
+  color: white;
+  
+}
+
+
+.listbox #myUL button:hover {
+  background-color: transparent;
+   color:  #008cff;
+   
+ }
+
+ .listbox #myUL li a {
+  border-radius: 10px;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #4f4f4f;
+  border: 1px solid black;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+.listbox #myUL button{
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #4f4f4f;
+  border: 1px solid black;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  text-align: left;
+}
+
+.listbox #myUL button:hover{
+  background-color: #4f4f4f;
+  color: #008cff;
+}
+.listbox #myUL li a:hover:not(.header) {
+  color: #008cff;
+}
+
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #4f4f4f;
+  width: 160px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {color: #008cff}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  color: #008cff;
+}
+
+.dropbtn {
+  width: 100%;
+  background-color: #7f7f7f;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  height: 50px;
+}
+
+.dropup {
+  position: fixed;
+   left: 75%;
+   bottom: 0;
+   width: inherit;
+   text-align: center;
+}
+
+
+#more {display: none;}

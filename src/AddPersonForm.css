@@ -1,0 +1,54 @@
+
+.innerc{
+    display: inline-block;
+    width: 96%;
+    margin: 1% 1% 1% 1%;
+    height: 20%;
+    background-color: #3f3f3f;
+    border-radius: 5px;
+  }
+  
+  .innerc .tweetinp{
+    width: 60%;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 5%;
+  }
+  
+  .innerc .tweetbtn{
+    background-color: #008cff;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2% 2% 2% 2%;
+    border-radius: 5px;
+  }
+  
+  
+  .innerc .tweetbtn:hover{
+     background-color: white;
+      color:  #008cff;
+  }
+  .innerc .temp{
+    border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      width: 1px;
+  }
+
+.dropbtn {
+  width: 100%;
+  background-color: #7f7f7f;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  height: 50px;
+}
